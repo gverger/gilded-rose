@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "gildedrose"
+version = "0.1.0"
+description = ""
+authors = ["Guillaume Verger <verger.guillaume@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pytest = "^7.4.3"
+
+
+[tool.poetry.group.dev.dependencies]
+black = { extras = ["d"], version = "^23.11.0" }
+isort = "^5.12.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
